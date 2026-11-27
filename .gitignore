@@ -1,0 +1,28 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Common build directories (Maven / Gradle / IDEs)
+target/
+build/
+out/
+bin/
+
+# IDE specific files (uncomment if needed)
+# .idea/
+# *.iml
+# .vscode/
+# .classpath
+# .project
+# .settings/
