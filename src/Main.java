@@ -2,19 +2,24 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.Scanner;
-
-/**
- * DosaAir console app. Run:
- *   javac *.java
- *   java Main
- */
-public class Main {
+ class Main {
     private static Scanner sc = new Scanner(System.in);
     private static BookingSystem system = new BookingSystem();
 
     public static void main(String[] args) {
         System.out.println("Welcome to DosaAir - Come for the flight, stay for the Dosa!");
-
+        System.out.println("Enter username : ");
+        String us = sc.nextLine();
+        System.out.println("Enter password");
+        String ps = sc.nextLine();
+        User user = new User(us,ps);
+        if (user.validateUser()){
+            System.out.println("Logged in Successfully");
+        }
+        else {
+            System.out.println("Wrong username / password");
+            return;
+        }
         while (true) {
             System.out.println();
             System.out.println("1. Book a flight");

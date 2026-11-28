@@ -31,6 +31,8 @@ public class Flight {
     public LocalDate getDate()      { return date; }
     public double getPrice()        { return price; }
     public int getSeatsLeft()       { return seatsLeft; }
+    public String getDepartTime() { return departTime;}
+    public String getArriveTime() { return arriveTime;}
 
     /** Takes seats away. Returns false if there aren't enough. */
     public boolean reserveSeats(int count) {

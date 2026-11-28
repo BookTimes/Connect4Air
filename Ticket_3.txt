@@ -1,0 +1,17 @@
+============================================
+           E-TICKET / BOARDING PASS         
+============================================
+Booking ID   : 3
+Flight       : EK102
+Route        : DXB ---> BOM
+Date         : 2026-12-01
+Departure    : 09:00 | Arrival: 13:30
+--------------------------------------------
+Passengers:
+  1. Hiresh (Age: 19, Male)
+  2. Shravani (Age: 19, Female)
+  3. Sradha (Age: 19, Female)
+  4. Mahadev (Age: 19, Male)
+--------------------------------------------
+Total Paid   : $3680.00
+============================================
